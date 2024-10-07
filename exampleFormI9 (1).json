@@ -1,0 +1,3268 @@
+{
+  "title": "Example Form",
+  "version": "2.0.0",
+  "description": "Example form",
+  "name": "ttfkzplronqfglo",
+  "roles": {
+    "administrator": {
+      "title": "Administrator",
+      "description": "A role for Administrative Users.",
+      "admin": true,
+      "default": false
+    },
+    "authenticated": {
+      "title": "Authenticated",
+      "description": "A role for Authenticated Users.",
+      "admin": false,
+      "default": false
+    },
+    "anonymous": {
+      "title": "Anonymous",
+      "description": "A role for Anonymous Users.",
+      "admin": false,
+      "default": true
+    }
+  },
+  "forms": {
+    "exampleFormI9": {
+      "title": "Example form i9",
+      "type": "form",
+      "name": "exampleFormI9",
+      "path": "exampleformi9",
+      "pdfComponents": [],
+      "display": "pdf",
+      "tags": [],
+      "settings": {
+        "pdf": {
+          "src": "https://ttfkzplronqfglo.form.io/pdf-proxy/pdf/66ff09bd15e8c2f8cca77c68/file/a3f93081-9c18-562f-a3ce-1a200bca85d6",
+          "id": "a3f93081-9c18-562f-a3ce-1a200bca85d6"
+        }
+      },
+      "components": [
+        {
+          "type": "textfield",
+          "key": "lastNameFamilyName",
+          "label": "Last Name (Family Name)",
+          "overlay": {
+            "width": 277.103992,
+            "height": 27.12364000000015,
+            "top": 306.16355999999985,
+            "left": 76.049788,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "firstNameGivenName",
+          "label": "First Name Given Name",
+          "overlay": {
+            "width": 245.0632800000002,
+            "height": 27.118300000000026,
+            "top": 306.1617799999998,
+            "left": 363.41192,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "employeeMiddleInitialIfAny",
+          "label": "Employee Middle Initial (if any)",
+          "overlay": {
+            "width": 116.40488000000003,
+            "height": 27.118300000000026,
+            "top": 306.1617799999998,
+            "left": 620.23032,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "employeeOtherLastNamesUsedIfAny",
+          "label": "Employee Other Last Names Used (if any)",
+          "overlay": {
+            "width": 277.1050599999999,
+            "height": 27.114739999999756,
+            "top": 306.16534000000007,
+            "left": 748.3903200000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "addressStreetNumberAndName",
+          "label": "Address Street Number and Name",
+          "overlay": {
+            "width": 331.50186,
+            "height": 24.126120000000054,
+            "top": 353.3744999999999,
+            "left": 74.55352,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "aptNumberIfAny",
+          "label": "Apt Number (if any)",
+          "overlay": {
+            "width": 116.90327999999998,
+            "height": 24.119000000000174,
+            "top": 353.37627999999984,
+            "left": 415.81512,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "cityOrTown",
+          "label": "City or Town",
+          "overlay": {
+            "width": 265.9248799999999,
+            "height": 24.119000000000174,
+            "top": 353.37627999999984,
+            "left": 544.47352,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "label": " ",
+                "value": " "
+              },
+              {
+                "label": "AK",
+                "value": "AK"
+              },
+              {
+                "label": "AL",
+                "value": "AL"
+              },
+              {
+                "label": "AR",
+                "value": "AR"
+              },
+              {
+                "label": "AS",
+                "value": "AS"
+              },
+              {
+                "label": "AZ",
+                "value": "AZ"
+              },
+              {
+                "label": "CA",
+                "value": "CA"
+              },
+              {
+                "label": "CAN",
+                "value": "CAN"
+              },
+              {
+                "label": "CO",
+                "value": "CO"
+              },
+              {
+                "label": "CT",
+                "value": "CT"
+              },
+              {
+                "label": "DC",
+                "value": "DC"
+              },
+              {
+                "label": "DE",
+                "value": "DE"
+              },
+              {
+                "label": "FL",
+                "value": "FL"
+              },
+              {
+                "label": "GA",
+                "value": "GA"
+              },
+              {
+                "label": "GU",
+                "value": "GU"
+              },
+              {
+                "label": "HI",
+                "value": "HI"
+              },
+              {
+                "label": "IA",
+                "value": "IA"
+              },
+              {
+                "label": "ID",
+                "value": "ID"
+              },
+              {
+                "label": "IL",
+                "value": "IL"
+              },
+              {
+                "label": "IN",
+                "value": "IN"
+              },
+              {
+                "label": "KS",
+                "value": "KS"
+              },
+              {
+                "label": "KY",
+                "value": "KY"
+              },
+              {
+                "label": "LA",
+                "value": "LA"
+              },
+              {
+                "label": "MA",
+                "value": "MA"
+              },
+              {
+                "label": "MD",
+                "value": "MD"
+              },
+              {
+                "label": "ME",
+                "value": "ME"
+              },
+              {
+                "label": "MEX",
+                "value": "MEX"
+              },
+              {
+                "label": "MI",
+                "value": "MI"
+              },
+              {
+                "label": "MN",
+                "value": "MN"
+              },
+              {
+                "label": "MO",
+                "value": "MO"
+              },
+              {
+                "label": "MP",
+                "value": "MP"
+              },
+              {
+                "label": "MS",
+                "value": "MS"
+              },
+              {
+                "label": "MT",
+                "value": "MT"
+              },
+              {
+                "label": "NC",
+                "value": "NC"
+              },
+              {
+                "label": "ND",
+                "value": "ND"
+              },
+              {
+                "label": "NE",
+                "value": "NE"
+              },
+              {
+                "label": "NH",
+                "value": "NH"
+              },
+              {
+                "label": "NJ",
+                "value": "NJ"
+              },
+              {
+                "label": "NM",
+                "value": "NM"
+              },
+              {
+                "label": "NV",
+                "value": "NV"
+              },
+              {
+                "label": "NY",
+                "value": "NY"
+              },
+              {
+                "label": "OH",
+                "value": "OH"
+              },
+              {
+                "label": "OK",
+                "value": "OK"
+              },
+              {
+                "label": "OR",
+                "value": "OR"
+              },
+              {
+                "label": "PA",
+                "value": "PA"
+              },
+              {
+                "label": "PR",
+                "value": "PR"
+              },
+              {
+                "label": "RI",
+                "value": "RI"
+              },
+              {
+                "label": "SC",
+                "value": "SC"
+              },
+              {
+                "label": "SD",
+                "value": "SD"
+              },
+              {
+                "label": "TN",
+                "value": "TN"
+              },
+              {
+                "label": "TX",
+                "value": "TX"
+              },
+              {
+                "label": "UT",
+                "value": "UT"
+              },
+              {
+                "label": "VA",
+                "value": "VA"
+              },
+              {
+                "label": "VI",
+                "value": "VI"
+              },
+              {
+                "label": "VT",
+                "value": "VT"
+              },
+              {
+                "label": "WA",
+                "value": "WA"
+              },
+              {
+                "label": "WI",
+                "value": "WI"
+              },
+              {
+                "label": "WV",
+                "value": "WV"
+              },
+              {
+                "label": "WY",
+                "value": "WY"
+              }
+            ]
+          },
+          "type": "select",
+          "key": "state",
+          "label": "State",
+          "overlay": {
+            "width": 73.29149999999991,
+            "height": 24.119000000000174,
+            "top": 353.37627999999984,
+            "left": 821.0161,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "zipCode",
+          "label": "ZIP Code",
+          "overlay": {
+            "width": 116.40488000000013,
+            "height": 24.119000000000174,
+            "top": 353.37627999999984,
+            "left": 907.59352,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "dateOfBirthMmddyyyy",
+          "label": "Date of Birth mmddyyyy",
+          "overlay": {
+            "width": 176.383226,
+            "height": 24.631639999999837,
+            "top": 399.64204000000007,
+            "left": 74.36893400000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "usSocialSecurityNumber",
+          "label": "US Social Security Number",
+          "overlay": {
+            "page": 1,
+            "left": 267,
+            "top": 401,
+            "height": 24.496360000000102,
+            "width": 186.9
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "employeesEMailAddress",
+          "label": "Employees E-mail Address",
+          "overlay": {
+            "width": 331.0034599999999,
+            "height": 24.629860000000132,
+            "top": 399.6491599999999,
+            "left": 470.2119200000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "telephoneNumber",
+          "label": "Telephone Number",
+          "overlay": {
+            "width": 212.17243999999965,
+            "height": 25.115799999999975,
+            "top": 399.44624,
+            "left": 811.9452200000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "value": "On",
+          "type": "checkbox",
+          "key": "cb1",
+          "label": "CB_1",
+          "overlay": {
+            "width": 16.874400000000033,
+            "height": 16.874400000000033,
+            "top": 461.376,
+            "left": 323.3904,
+            "page": 1
+          },
+          "input": true,
+          "tableView": false
+        },
+        {
+          "value": "On",
+          "type": "checkbox",
+          "key": "cb2",
+          "label": "CB_2",
+          "overlay": {
+            "width": 16.874400000000033,
+            "height": 16.874400000000033,
+            "top": 482.736,
+            "left": 323.3904,
+            "page": 1
+          },
+          "input": true,
+          "tableView": false
+        },
+        {
+          "value": "On",
+          "type": "checkbox",
+          "key": "cb3",
+          "label": "CB_3",
+          "overlay": {
+            "width": 16.874400000000033,
+            "height": 16.87439999999993,
+            "top": 504.096,
+            "left": 323.3904,
+            "page": 1
+          },
+          "input": true,
+          "tableView": false
+        },
+        {
+          "type": "textfield",
+          "key": "_3ALawfulPermanentResidentEnterUscisOrANumber",
+          "label": "3 A lawful permanent resident Enter USCIS or ANumber",
+          "overlay": {
+            "width": 329.15759999999995,
+            "height": 19.864799999999843,
+            "top": 503.028,
+            "left": 695.268,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "value": "On",
+          "type": "checkbox",
+          "key": "cb4",
+          "label": "CB_4",
+          "overlay": {
+            "width": 16.37600000000003,
+            "height": 16.09831999999997,
+            "top": 526.23208,
+            "left": 323.8888,
+            "page": 1
+          },
+          "input": true,
+          "tableView": false
+        },
+        {
+          "type": "textfield",
+          "key": "expDateMmddyyyy",
+          "label": "Exp Date mmddyyyy",
+          "overlay": {
+            "width": 105.6020599999998,
+            "height": 22.990479999999994,
+            "top": 525.0465999999999,
+            "left": 918.8235400000002,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "uscisANumber",
+          "label": "USCIS ANumber",
+          "overlay": {
+            "width": 147.38399999999996,
+            "height": 19.864799999999942,
+            "top": 599.1479999999999,
+            "left": 321.468,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "formI94AdmissionNumber",
+          "label": "Form I94 Admission Number",
+          "overlay": {
+            "width": 190.10399999999993,
+            "height": 19.864799999999942,
+            "top": 599.1479999999999,
+            "left": 492.34800000000007,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "foreignPassportNumberAndCountryOfIssuanceRow1",
+          "label": "Foreign Passport Number and Country of IssuanceRow1",
+          "overlay": {
+            "width": 318.2639999999999,
+            "height": 19.864799999999942,
+            "top": 599.1479999999999,
+            "left": 705.9480000000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "signatureOfEmployee",
+          "label": "Signature of Employee",
+          "overlay": {
+            "width": 575.302408,
+            "height": 22.99403999999991,
+            "top": 637.74196,
+            "left": 74.895992,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "todaysDateMmddyyy",
+          "label": "Today's Date mmddyyy",
+          "overlay": {
+            "width": 180.9832800000001,
+            "height": 22.992259999999852,
+            "top": 637.73662,
+            "left": 662.95032,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentTitle1",
+          "label": "Document Title 1",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 30.331199999999935,
+            "top": 770.2416000000001,
+            "left": 225.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "issuingAuthority1",
+          "label": "Issuing Authority 1",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 30.331199999999935,
+            "top": 802.2816,
+            "left": 225.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentNumber0IfAny",
+          "label": "Document Number 0 (if any)",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 30.117600000000028,
+            "top": 834.5351999999999,
+            "left": 225.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "expirationDateIfAny",
+          "label": "Expiration Date if any",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 29.263200000000097,
+            "top": 866.5752,
+            "left": 225.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentTitle2IfAny",
+          "label": "Document Title 2 If any",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 29.69039999999981,
+            "top": 899.0423999999999,
+            "left": 225.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "issuingAuthority2",
+          "label": "Issuing Authority_2",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 30.11759999999993,
+            "top": 930.6552,
+            "left": 225.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentNumberIfAny2",
+          "label": "Document Number If any_2",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 30.11759999999993,
+            "top": 962.6952000000001,
+            "left": 225.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentNumberIfAny3",
+          "label": "Document Number if any_3",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 30.11759999999993,
+            "top": 1122.8952000000002,
+            "left": 225.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listBDocument1Title",
+          "label": "List B Document 1 Title",
+          "overlay": {
+            "width": 253.39724,
+            "height": 30.831379999999946,
+            "top": 769.4388200000001,
+            "left": 492.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listBIssuingAuthority1",
+          "label": "List B Issuing Authority 1",
+          "overlay": {
+            "width": 253.19610000000011,
+            "height": 30.331200000000038,
+            "top": 801.4094,
+            "left": 493.92507999999987,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listBDocumentNumber1",
+          "label": "List B Document Number 1",
+          "overlay": {
+            "width": 253.14804000000004,
+            "height": 30.331199999999935,
+            "top": 833.2838600000001,
+            "left": 492.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listBExpirationDate1",
+          "label": "List B Expiration Date 1",
+          "overlay": {
+            "width": 253.14804000000004,
+            "height": 30.331200000000038,
+            "top": 865.2063799999999,
+            "left": 492.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listCDocumentTitle1",
+          "label": "List C Document Title 1",
+          "overlay": {
+            "width": 275.2841199999999,
+            "height": 30.331199999999935,
+            "top": 769.93722,
+            "left": 748.9652600000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listCIssuingAuthority1",
+          "label": "List C Issuing Authority 1",
+          "overlay": {
+            "width": 275.2841199999999,
+            "height": 30.38459999999999,
+            "top": 801.3613399999999,
+            "left": 748.9652600000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listCDocumentNumber1",
+          "label": "List C Document Number 1",
+          "overlay": {
+            "width": 275.2841199999999,
+            "height": 30.331199999999935,
+            "top": 833.2838600000001,
+            "left": 748.9652600000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listCExpirationDate1",
+          "label": "List C Expiration Date 1",
+          "overlay": {
+            "width": 275.2841199999999,
+            "height": 30.331200000000038,
+            "top": 865.2063799999999,
+            "left": 748.9652600000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textarea",
+          "key": "additionalInformation",
+          "label": "Additional Information",
+          "overlay": {
+            "width": 550.02,
+            "height": 206.93924000000007,
+            "top": 920.8295999999999,
+            "left": 474.78295999999995,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "value": "Yes",
+          "type": "checkbox",
+          "key": "cbAlt",
+          "label": "CB_Alt",
+          "overlay": {
+            "width": 16.879739999999906,
+            "height": 16.879739999999906,
+            "top": 1130.86248,
+            "left": 476.16423999999995,
+            "page": 1
+          },
+          "input": true,
+          "tableView": false
+        },
+        {
+          "type": "textfield",
+          "key": "firstDayEmployedMmddyyyy",
+          "label": "FirstDayEmployed mmddyyyy",
+          "overlay": {
+            "width": 151.47088000000022,
+            "height": 27.31231999999989,
+            "top": 1184.3479200000002,
+            "left": 823.42266,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "lastNameFirstNameAndTitleOfEmployerOrAuthorizedRepresentative",
+          "label": "Last Name First Name and Title of Employer or Authorized Representative",
+          "overlay": {
+            "width": 447.2595319999999,
+            "height": 34.88248200000001,
+            "top": 1233.11636,
+            "left": 65.16864799999999,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "signatureOfEmployerOrAr",
+          "label": "Signature of Employer or AR",
+          "overlay": {
+            "width": 340.04408,
+            "height": 34.885864000000176,
+            "top": 1233.11636,
+            "left": 523.82552,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "s2TodaysDateMmddyyyy",
+          "label": "S2 Todays Date mmddyyyy",
+          "overlay": {
+            "width": 138.8488999999998,
+            "height": 34.88515199999995,
+            "top": 1233.1170720000002,
+            "left": 871.9330000000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "employersBusinessOrOrgName",
+          "label": "Employers Business or Org Name",
+          "overlay": {
+            "width": 359.87755200000004,
+            "height": 24.396680000000032,
+            "top": 1290.955146,
+            "left": 65.31282800000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "employersBusinessOrOrgAddress",
+          "label": "Employers Business or Org Address",
+          "overlay": {
+            "width": 585.9047999999999,
+            "height": 24.401663999999993,
+            "top": 1290.95568,
+            "left": 437.5596000000001,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listADocument2ExpirationDateIfAny",
+          "label": "List A.  Document 2. Expiration Date (if any)",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 29.690400000000114,
+            "top": 994.7351999999998,
+            "left": 226.55128,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listADocumentTitle3IfAny",
+          "label": "List A.   Document Title 3.  If any",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 29.690400000000114,
+            "top": 1027.2024,
+            "left": 225.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listADocument3EnterIssuingAuthority",
+          "label": "List A. Document 3.  Enter Issuing Authority",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 30.11760000000013,
+            "top": 1058.8151999999998,
+            "left": 225.77520000000004,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "listADocument3NumberIfAny",
+          "label": "List A.  Document 3 Number.  If any",
+          "overlay": {
+            "width": 242.8631999999999,
+            "height": 30.11759999999993,
+            "top": 1092.00508,
+            "left": 226.55128,
+            "page": 1
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "lastNameFamilyNameFromSection1",
+          "label": "Last Name Family Name from Section 1",
+          "overlay": {
+            "width": 391.74240000000003,
+            "height": 34.95386000000005,
+            "top": 199.7907599999999,
+            "left": 65.78880000000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "firstNameGivenNameFromSection1",
+          "label": "First Name Given Name from Section 1",
+          "overlay": {
+            "width": 316.98240000000015,
+            "height": 34.948519999999796,
+            "top": 199.80143999999996,
+            "left": 460.94879999999995,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "middleInitialIfAnyFromSection1",
+          "label": "Middle initial if any from Section 1",
+          "overlay": {
+            "width": 242.22239999999988,
+            "height": 34.948519999999796,
+            "top": 199.80143999999996,
+            "left": 781.3488000000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "signatureOfPreparerOrTranslator0",
+          "label": "Signature of Preparer or Translator 0",
+          "overlay": {
+            "width": 665.4319960000001,
+            "height": 40.794040000000265,
+            "top": 406.3419599999998,
+            "left": 69.99280399999999,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "sigDateMmddyyyy0",
+          "label": "Sig Date mmddyyyy 0",
+          "overlay": {
+            "width": 267.66927999999996,
+            "height": 40.79403999999991,
+            "top": 406.34373999999985,
+            "left": 743.26036,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorLastNameFamilyName0",
+          "label": "Preparer or Translator Last Name (Family Name) 0",
+          "overlay": {
+            "width": 408.54168400000015,
+            "height": 28.476440000000085,
+            "top": 472.0595599999998,
+            "left": 70.56311600000002,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorFirstNameGivenName0",
+          "label": "Preparer or Translator First Name (Given Name) 0",
+          "overlay": {
+            "width": 388.17884000000004,
+            "height": 28.47643999999978,
+            "top": 472.05244000000005,
+            "left": 486.08596,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "ptMiddleInitial0",
+          "label": "PT Middle Initial 0",
+          "overlay": {
+            "width": 142.53883999999985,
+            "height": 28.47643999999978,
+            "top": 472.05244000000005,
+            "left": 881.2459600000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorAddressStreetNumberAndName0",
+          "label": "Preparer or Translator Address (Street Number and Name) 0",
+          "overlay": {
+            "width": 452.6863960000001,
+            "height": 28.478220000000043,
+            "top": 522.8945799999999,
+            "left": 69.352004,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorCityOrTown0",
+          "label": "Preparer or Translator City or Town 0",
+          "overlay": {
+            "width": 270.62764000000004,
+            "height": 28.476439999999982,
+            "top": 522.8927999999999,
+            "left": 529.09076,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "label": " ",
+                "value": " "
+              },
+              {
+                "label": "AK",
+                "value": "AK"
+              },
+              {
+                "label": "AL",
+                "value": "AL"
+              },
+              {
+                "label": "AR",
+                "value": "AR"
+              },
+              {
+                "label": "AS",
+                "value": "AS"
+              },
+              {
+                "label": "AZ",
+                "value": "AZ"
+              },
+              {
+                "label": "CA",
+                "value": "CA"
+              },
+              {
+                "label": "CAN",
+                "value": "CAN"
+              },
+              {
+                "label": "CO",
+                "value": "CO"
+              },
+              {
+                "label": "CT",
+                "value": "CT"
+              },
+              {
+                "label": "DC",
+                "value": "DC"
+              },
+              {
+                "label": "DE",
+                "value": "DE"
+              },
+              {
+                "label": "FL",
+                "value": "FL"
+              },
+              {
+                "label": "GA",
+                "value": "GA"
+              },
+              {
+                "label": "GU",
+                "value": "GU"
+              },
+              {
+                "label": "HI",
+                "value": "HI"
+              },
+              {
+                "label": "IA",
+                "value": "IA"
+              },
+              {
+                "label": "ID",
+                "value": "ID"
+              },
+              {
+                "label": "IL",
+                "value": "IL"
+              },
+              {
+                "label": "IN",
+                "value": "IN"
+              },
+              {
+                "label": "KS",
+                "value": "KS"
+              },
+              {
+                "label": "KY",
+                "value": "KY"
+              },
+              {
+                "label": "LA",
+                "value": "LA"
+              },
+              {
+                "label": "MA",
+                "value": "MA"
+              },
+              {
+                "label": "MD",
+                "value": "MD"
+              },
+              {
+                "label": "ME",
+                "value": "ME"
+              },
+              {
+                "label": "MEX",
+                "value": "MEX"
+              },
+              {
+                "label": "MI",
+                "value": "MI"
+              },
+              {
+                "label": "MN",
+                "value": "MN"
+              },
+              {
+                "label": "MO",
+                "value": "MO"
+              },
+              {
+                "label": "MP",
+                "value": "MP"
+              },
+              {
+                "label": "MS",
+                "value": "MS"
+              },
+              {
+                "label": "MT",
+                "value": "MT"
+              },
+              {
+                "label": "NC",
+                "value": "NC"
+              },
+              {
+                "label": "ND",
+                "value": "ND"
+              },
+              {
+                "label": "NE",
+                "value": "NE"
+              },
+              {
+                "label": "NH",
+                "value": "NH"
+              },
+              {
+                "label": "NJ",
+                "value": "NJ"
+              },
+              {
+                "label": "NM",
+                "value": "NM"
+              },
+              {
+                "label": "NV",
+                "value": "NV"
+              },
+              {
+                "label": "NY",
+                "value": "NY"
+              },
+              {
+                "label": "OH",
+                "value": "OH"
+              },
+              {
+                "label": "OK",
+                "value": "OK"
+              },
+              {
+                "label": "OR",
+                "value": "OR"
+              },
+              {
+                "label": "PA",
+                "value": "PA"
+              },
+              {
+                "label": "PR",
+                "value": "PR"
+              },
+              {
+                "label": "RI",
+                "value": "RI"
+              },
+              {
+                "label": "SC",
+                "value": "SC"
+              },
+              {
+                "label": "SD",
+                "value": "SD"
+              },
+              {
+                "label": "TN",
+                "value": "TN"
+              },
+              {
+                "label": "TX",
+                "value": "TX"
+              },
+              {
+                "label": "UT",
+                "value": "UT"
+              },
+              {
+                "label": "VA",
+                "value": "VA"
+              },
+              {
+                "label": "VI",
+                "value": "VI"
+              },
+              {
+                "label": "VT",
+                "value": "VT"
+              },
+              {
+                "label": "WA",
+                "value": "WA"
+              },
+              {
+                "label": "WI",
+                "value": "WI"
+              },
+              {
+                "label": "WV",
+                "value": "WV"
+              },
+              {
+                "label": "WY",
+                "value": "WY"
+              }
+            ]
+          },
+          "type": "select",
+          "key": "preparerState0",
+          "label": "Preparer State 0",
+          "overlay": {
+            "width": 68.30572000000004,
+            "height": 28.476439999999982,
+            "top": 522.8927999999999,
+            "left": 806.55004,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "zipCode0",
+          "label": "Zip Code 0",
+          "overlay": {
+            "width": 139.97386000000012,
+            "height": 28.476439999999982,
+            "top": 522.8927999999999,
+            "left": 884.0245400000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "signatureOfPreparerOrTranslator1",
+          "label": "Signature of Preparer or Translator 1",
+          "overlay": {
+            "width": 665.71733,
+            "height": 40.792259999999956,
+            "top": 630.12356,
+            "left": 69.70747,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "sigDateMmddyyyy1",
+          "label": "Sig Date mmddyyyy 1",
+          "overlay": {
+            "width": 267.6746200000001,
+            "height": 40.79403999999991,
+            "top": 630.12356,
+            "left": 742.97556,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorLastNameFamilyName1",
+          "label": "Preparer or Translator Last Name (Family Name) 1",
+          "overlay": {
+            "width": 408.53634400000004,
+            "height": 28.476439999999982,
+            "top": 696.2665799999999,
+            "left": 70.564896,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorLastNameFamilyName1_1",
+          "label": "Preparer or Translator Last Name (Family Name) 1",
+          "overlay": {
+            "width": 388.17884000000004,
+            "height": 28.476439999999982,
+            "top": 696.2665799999999,
+            "left": 486.08596,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "ptMiddleInitial1",
+          "label": "PT Middle Initial 1",
+          "overlay": {
+            "width": 142.54417999999984,
+            "height": 28.47643999999978,
+            "top": 696.2683599999999,
+            "left": 881.2406200000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorAddressStreetNumberAndName1",
+          "label": "Preparer or Translator Address (Street Number and Name) 1",
+          "overlay": {
+            "width": 450.982224,
+            "height": 28.47643999999978,
+            "top": 747.1763600000002,
+            "left": 69.347376,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorCityOrTown1",
+          "label": "Preparer or Translator City or Town 1",
+          "overlay": {
+            "width": 270.62230000000005,
+            "height": 28.47643999999978,
+            "top": 747.1728,
+            "left": 529.0961,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "label": " ",
+                "value": " "
+              },
+              {
+                "label": "AK",
+                "value": "AK"
+              },
+              {
+                "label": "AL",
+                "value": "AL"
+              },
+              {
+                "label": "AR",
+                "value": "AR"
+              },
+              {
+                "label": "AS",
+                "value": "AS"
+              },
+              {
+                "label": "AZ",
+                "value": "AZ"
+              },
+              {
+                "label": "CA",
+                "value": "CA"
+              },
+              {
+                "label": "CAN",
+                "value": "CAN"
+              },
+              {
+                "label": "CO",
+                "value": "CO"
+              },
+              {
+                "label": "CT",
+                "value": "CT"
+              },
+              {
+                "label": "DC",
+                "value": "DC"
+              },
+              {
+                "label": "DE",
+                "value": "DE"
+              },
+              {
+                "label": "FL",
+                "value": "FL"
+              },
+              {
+                "label": "GA",
+                "value": "GA"
+              },
+              {
+                "label": "GU",
+                "value": "GU"
+              },
+              {
+                "label": "HI",
+                "value": "HI"
+              },
+              {
+                "label": "IA",
+                "value": "IA"
+              },
+              {
+                "label": "ID",
+                "value": "ID"
+              },
+              {
+                "label": "IL",
+                "value": "IL"
+              },
+              {
+                "label": "IN",
+                "value": "IN"
+              },
+              {
+                "label": "KS",
+                "value": "KS"
+              },
+              {
+                "label": "KY",
+                "value": "KY"
+              },
+              {
+                "label": "LA",
+                "value": "LA"
+              },
+              {
+                "label": "MA",
+                "value": "MA"
+              },
+              {
+                "label": "MD",
+                "value": "MD"
+              },
+              {
+                "label": "ME",
+                "value": "ME"
+              },
+              {
+                "label": "MEX",
+                "value": "MEX"
+              },
+              {
+                "label": "MI",
+                "value": "MI"
+              },
+              {
+                "label": "MN",
+                "value": "MN"
+              },
+              {
+                "label": "MO",
+                "value": "MO"
+              },
+              {
+                "label": "MP",
+                "value": "MP"
+              },
+              {
+                "label": "MS",
+                "value": "MS"
+              },
+              {
+                "label": "MT",
+                "value": "MT"
+              },
+              {
+                "label": "NC",
+                "value": "NC"
+              },
+              {
+                "label": "ND",
+                "value": "ND"
+              },
+              {
+                "label": "NE",
+                "value": "NE"
+              },
+              {
+                "label": "NH",
+                "value": "NH"
+              },
+              {
+                "label": "NJ",
+                "value": "NJ"
+              },
+              {
+                "label": "NM",
+                "value": "NM"
+              },
+              {
+                "label": "NV",
+                "value": "NV"
+              },
+              {
+                "label": "NY",
+                "value": "NY"
+              },
+              {
+                "label": "OH",
+                "value": "OH"
+              },
+              {
+                "label": "OK",
+                "value": "OK"
+              },
+              {
+                "label": "OR",
+                "value": "OR"
+              },
+              {
+                "label": "PA",
+                "value": "PA"
+              },
+              {
+                "label": "PR",
+                "value": "PR"
+              },
+              {
+                "label": "RI",
+                "value": "RI"
+              },
+              {
+                "label": "SC",
+                "value": "SC"
+              },
+              {
+                "label": "SD",
+                "value": "SD"
+              },
+              {
+                "label": "TN",
+                "value": "TN"
+              },
+              {
+                "label": "TX",
+                "value": "TX"
+              },
+              {
+                "label": "UT",
+                "value": "UT"
+              },
+              {
+                "label": "VA",
+                "value": "VA"
+              },
+              {
+                "label": "VI",
+                "value": "VI"
+              },
+              {
+                "label": "VT",
+                "value": "VT"
+              },
+              {
+                "label": "WA",
+                "value": "WA"
+              },
+              {
+                "label": "WI",
+                "value": "WI"
+              },
+              {
+                "label": "WV",
+                "value": "WV"
+              },
+              {
+                "label": "WY",
+                "value": "WY"
+              }
+            ]
+          },
+          "type": "select",
+          "key": "preparerState1",
+          "label": "Preparer State 1",
+          "overlay": {
+            "width": 68.31996000000001,
+            "height": 28.47643999999978,
+            "top": 747.1728,
+            "left": 806.55004,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "zipCode1",
+          "label": "Zip Code 1",
+          "overlay": {
+            "width": 139.97564000000006,
+            "height": 28.47643999999978,
+            "top": 747.1728,
+            "left": 884.0227600000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "signatureOfPreparerOrTranslator2",
+          "label": "Signature of Preparer or Translator 2",
+          "overlay": {
+            "width": 665.71733,
+            "height": 40.794040000000116,
+            "top": 854.9019599999999,
+            "left": 69.70747,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "sigDateMmddyyyy2",
+          "label": "Sig Date mmddyyyy 2",
+          "overlay": {
+            "width": 267.67461999999983,
+            "height": 40.794040000000116,
+            "top": 854.90374,
+            "left": 743.26036,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorLastNameFamilyName2",
+          "label": "Preparer or Translator Last Name (Family Name) 2",
+          "overlay": {
+            "width": 408.540438,
+            "height": 28.478220000000245,
+            "top": 920.8313799999999,
+            "left": 70.06596200000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorFirstNameGivenName2",
+          "label": "Preparer or Translator First Name (Given Name) 2",
+          "overlay": {
+            "width": 387.68044000000003,
+            "height": 28.478220000000245,
+            "top": 920.8313799999999,
+            "left": 486.08596,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "ptMiddleInitial2",
+          "label": "PT Middle Initial 2",
+          "overlay": {
+            "width": 142.54417999999993,
+            "height": 28.478220000000245,
+            "top": 920.8313799999999,
+            "left": 880.7422200000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorAddressStreetNumberAndName2",
+          "label": "Preparer or Translator Address (Street Number and Name) 2",
+          "overlay": {
+            "width": 450.98258000000004,
+            "height": 28.478220000000043,
+            "top": 971.66818,
+            "left": 68.84862000000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorCityOrTown2",
+          "label": "Preparer or Translator City or Town 2",
+          "overlay": {
+            "width": 275.32150000000024,
+            "height": 28.478220000000043,
+            "top": 971.66818,
+            "left": 528.5976999999999,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "label": " ",
+                "value": " "
+              },
+              {
+                "label": "AK",
+                "value": "AK"
+              },
+              {
+                "label": "AL",
+                "value": "AL"
+              },
+              {
+                "label": "AR",
+                "value": "AR"
+              },
+              {
+                "label": "AS",
+                "value": "AS"
+              },
+              {
+                "label": "AZ",
+                "value": "AZ"
+              },
+              {
+                "label": "CA",
+                "value": "CA"
+              },
+              {
+                "label": "CAN",
+                "value": "CAN"
+              },
+              {
+                "label": "CO",
+                "value": "CO"
+              },
+              {
+                "label": "CT",
+                "value": "CT"
+              },
+              {
+                "label": "DC",
+                "value": "DC"
+              },
+              {
+                "label": "DE",
+                "value": "DE"
+              },
+              {
+                "label": "FL",
+                "value": "FL"
+              },
+              {
+                "label": "GA",
+                "value": "GA"
+              },
+              {
+                "label": "GU",
+                "value": "GU"
+              },
+              {
+                "label": "HI",
+                "value": "HI"
+              },
+              {
+                "label": "IA",
+                "value": "IA"
+              },
+              {
+                "label": "ID",
+                "value": "ID"
+              },
+              {
+                "label": "IL",
+                "value": "IL"
+              },
+              {
+                "label": "IN",
+                "value": "IN"
+              },
+              {
+                "label": "KS",
+                "value": "KS"
+              },
+              {
+                "label": "KY",
+                "value": "KY"
+              },
+              {
+                "label": "LA",
+                "value": "LA"
+              },
+              {
+                "label": "MA",
+                "value": "MA"
+              },
+              {
+                "label": "MD",
+                "value": "MD"
+              },
+              {
+                "label": "ME",
+                "value": "ME"
+              },
+              {
+                "label": "MEX",
+                "value": "MEX"
+              },
+              {
+                "label": "MI",
+                "value": "MI"
+              },
+              {
+                "label": "MN",
+                "value": "MN"
+              },
+              {
+                "label": "MO",
+                "value": "MO"
+              },
+              {
+                "label": "MP",
+                "value": "MP"
+              },
+              {
+                "label": "MS",
+                "value": "MS"
+              },
+              {
+                "label": "MT",
+                "value": "MT"
+              },
+              {
+                "label": "NC",
+                "value": "NC"
+              },
+              {
+                "label": "ND",
+                "value": "ND"
+              },
+              {
+                "label": "NE",
+                "value": "NE"
+              },
+              {
+                "label": "NH",
+                "value": "NH"
+              },
+              {
+                "label": "NJ",
+                "value": "NJ"
+              },
+              {
+                "label": "NM",
+                "value": "NM"
+              },
+              {
+                "label": "NV",
+                "value": "NV"
+              },
+              {
+                "label": "NY",
+                "value": "NY"
+              },
+              {
+                "label": "OH",
+                "value": "OH"
+              },
+              {
+                "label": "OK",
+                "value": "OK"
+              },
+              {
+                "label": "OR",
+                "value": "OR"
+              },
+              {
+                "label": "PA",
+                "value": "PA"
+              },
+              {
+                "label": "PR",
+                "value": "PR"
+              },
+              {
+                "label": "RI",
+                "value": "RI"
+              },
+              {
+                "label": "SC",
+                "value": "SC"
+              },
+              {
+                "label": "SD",
+                "value": "SD"
+              },
+              {
+                "label": "TN",
+                "value": "TN"
+              },
+              {
+                "label": "TX",
+                "value": "TX"
+              },
+              {
+                "label": "UT",
+                "value": "UT"
+              },
+              {
+                "label": "VA",
+                "value": "VA"
+              },
+              {
+                "label": "VI",
+                "value": "VI"
+              },
+              {
+                "label": "VT",
+                "value": "VT"
+              },
+              {
+                "label": "WA",
+                "value": "WA"
+              },
+              {
+                "label": "WI",
+                "value": "WI"
+              },
+              {
+                "label": "WV",
+                "value": "WV"
+              },
+              {
+                "label": "WY",
+                "value": "WY"
+              }
+            ]
+          },
+          "type": "select",
+          "key": "preparerState2",
+          "label": "Preparer State 2",
+          "overlay": {
+            "width": 68.31995999999991,
+            "height": 28.476440000000085,
+            "top": 971.3798199999999,
+            "left": 807.0573400000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "zipCode2",
+          "label": "Zip Code 2",
+          "overlay": {
+            "width": 139.97742000000002,
+            "height": 28.478220000000043,
+            "top": 971.66818,
+            "left": 883.52258,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "signatureOfPreparerOrTranslator3",
+          "label": "Signature of Preparer or Translator 3",
+          "overlay": {
+            "width": 665.7185760000001,
+            "height": 40.79403999999981,
+            "top": 1079.1819600000001,
+            "left": 69.706224,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "sigDateMmddyyyy3",
+          "label": "Sig Date mmddyyyy 3",
+          "overlay": {
+            "width": 267.67462000000006,
+            "height": 40.79403999999981,
+            "top": 1079.1819600000001,
+            "left": 744.4138,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorLastNameFamilyName3",
+          "label": "Preparer or Translator Last Name (Family Name) 3",
+          "overlay": {
+            "width": 409.039728,
+            "height": 28.478220000000043,
+            "top": 1145.11138,
+            "left": 70.065072,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorFirstNameGivenName3",
+          "label": "Preparer or Translator First Name (Given Name) 3",
+          "overlay": {
+            "width": 388.17884000000004,
+            "height": 28.478220000000043,
+            "top": 1145.11138,
+            "left": 486.08596,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "ptMiddleInitial3",
+          "label": "PT Middle Initial 3",
+          "overlay": {
+            "width": 143.04436000000004,
+            "height": 28.478220000000043,
+            "top": 1145.11138,
+            "left": 880.7404399999999,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorAddressStreetNumberAndName3",
+          "label": "Preparer or Translator Address (Street Number and Name) 3",
+          "overlay": {
+            "width": 452.6910239999999,
+            "height": 28.478220000000043,
+            "top": 1196.16178,
+            "left": 69.347376,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "preparerOrTranslatorCityOrTown3",
+          "label": "Preparer or Translator City or Town 3",
+          "overlay": {
+            "width": 270.62230000000005,
+            "height": 28.478220000000043,
+            "top": 1195.73458,
+            "left": 529.0961,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "label": " ",
+                "value": " "
+              },
+              {
+                "label": "AK",
+                "value": "AK"
+              },
+              {
+                "label": "AL",
+                "value": "AL"
+              },
+              {
+                "label": "AR",
+                "value": "AR"
+              },
+              {
+                "label": "AS",
+                "value": "AS"
+              },
+              {
+                "label": "AZ",
+                "value": "AZ"
+              },
+              {
+                "label": "CA",
+                "value": "CA"
+              },
+              {
+                "label": "CAN",
+                "value": "CAN"
+              },
+              {
+                "label": "CO",
+                "value": "CO"
+              },
+              {
+                "label": "CT",
+                "value": "CT"
+              },
+              {
+                "label": "DC",
+                "value": "DC"
+              },
+              {
+                "label": "DE",
+                "value": "DE"
+              },
+              {
+                "label": "FL",
+                "value": "FL"
+              },
+              {
+                "label": "GA",
+                "value": "GA"
+              },
+              {
+                "label": "GU",
+                "value": "GU"
+              },
+              {
+                "label": "HI",
+                "value": "HI"
+              },
+              {
+                "label": "IA",
+                "value": "IA"
+              },
+              {
+                "label": "ID",
+                "value": "ID"
+              },
+              {
+                "label": "IL",
+                "value": "IL"
+              },
+              {
+                "label": "IN",
+                "value": "IN"
+              },
+              {
+                "label": "KS",
+                "value": "KS"
+              },
+              {
+                "label": "KY",
+                "value": "KY"
+              },
+              {
+                "label": "LA",
+                "value": "LA"
+              },
+              {
+                "label": "MA",
+                "value": "MA"
+              },
+              {
+                "label": "MD",
+                "value": "MD"
+              },
+              {
+                "label": "ME",
+                "value": "ME"
+              },
+              {
+                "label": "MEX",
+                "value": "MEX"
+              },
+              {
+                "label": "MI",
+                "value": "MI"
+              },
+              {
+                "label": "MN",
+                "value": "MN"
+              },
+              {
+                "label": "MO",
+                "value": "MO"
+              },
+              {
+                "label": "MP",
+                "value": "MP"
+              },
+              {
+                "label": "MS",
+                "value": "MS"
+              },
+              {
+                "label": "MT",
+                "value": "MT"
+              },
+              {
+                "label": "NC",
+                "value": "NC"
+              },
+              {
+                "label": "ND",
+                "value": "ND"
+              },
+              {
+                "label": "NE",
+                "value": "NE"
+              },
+              {
+                "label": "NH",
+                "value": "NH"
+              },
+              {
+                "label": "NJ",
+                "value": "NJ"
+              },
+              {
+                "label": "NM",
+                "value": "NM"
+              },
+              {
+                "label": "NV",
+                "value": "NV"
+              },
+              {
+                "label": "NY",
+                "value": "NY"
+              },
+              {
+                "label": "OH",
+                "value": "OH"
+              },
+              {
+                "label": "OK",
+                "value": "OK"
+              },
+              {
+                "label": "OR",
+                "value": "OR"
+              },
+              {
+                "label": "PA",
+                "value": "PA"
+              },
+              {
+                "label": "PR",
+                "value": "PR"
+              },
+              {
+                "label": "RI",
+                "value": "RI"
+              },
+              {
+                "label": "SC",
+                "value": "SC"
+              },
+              {
+                "label": "SD",
+                "value": "SD"
+              },
+              {
+                "label": "TN",
+                "value": "TN"
+              },
+              {
+                "label": "TX",
+                "value": "TX"
+              },
+              {
+                "label": "UT",
+                "value": "UT"
+              },
+              {
+                "label": "VA",
+                "value": "VA"
+              },
+              {
+                "label": "VI",
+                "value": "VI"
+              },
+              {
+                "label": "VT",
+                "value": "VT"
+              },
+              {
+                "label": "WA",
+                "value": "WA"
+              },
+              {
+                "label": "WI",
+                "value": "WI"
+              },
+              {
+                "label": "WV",
+                "value": "WV"
+              },
+              {
+                "label": "WY",
+                "value": "WY"
+              }
+            ]
+          },
+          "type": "select",
+          "key": "preparerState3",
+          "label": "Preparer State 3",
+          "overlay": {
+            "width": 67.82155999999996,
+            "height": 28.476439999999883,
+            "top": 1195.38748,
+            "left": 806.6070000000001,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "zipCode3",
+          "label": "Zip Code 3",
+          "overlay": {
+            "width": 139.97563999999997,
+            "height": 28.478220000000043,
+            "top": 1195.73458,
+            "left": 883.24668,
+            "page": 3
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "lastNameFamilyNameFromSection12",
+          "label": "Last Name Family Name from Section 1-2",
+          "overlay": {
+            "width": 384.5960559999999,
+            "height": 33.204120000000096,
+            "top": 203.42551999999995,
+            "left": 73.730804,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "firstNameGivenNameFromSection12",
+          "label": "First Name Given Name from Section 1-2",
+          "overlay": {
+            "width": 308.0895200000001,
+            "height": 33.20590000000008,
+            "top": 203.42907999999989,
+            "left": 470.0552799999999,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "middleInitialIfAnyFromSection12",
+          "label": "Middle initial if any from Section 1-2",
+          "overlay": {
+            "width": 233.32952,
+            "height": 33.20590000000008,
+            "top": 203.42907999999989,
+            "left": 790.4552799999999,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "dateOfRehire0",
+          "label": "Date of Rehire 0",
+          "overlay": {
+            "width": 155.05330800000004,
+            "height": 33.20411999999989,
+            "top": 385.56757999999996,
+            "left": 75.109592,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "lastName0",
+          "label": "Last Name 0",
+          "overlay": {
+            "width": 340.7115800000001,
+            "height": 33.20589999999995,
+            "top": 385.56579999999985,
+            "left": 255.87321999999995,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "firstName0",
+          "label": "First Name 0",
+          "overlay": {
+            "width": 308.08951999999994,
+            "height": 33.20589999999995,
+            "top": 385.56579999999985,
+            "left": 608.8952800000001,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "middleInitial0",
+          "label": "Middle Initial 0",
+          "overlay": {
+            "width": 95.0715799999999,
+            "height": 33.20589999999995,
+            "top": 385.56579999999985,
+            "left": 928.7132200000001,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentTitle0",
+          "label": "Document Title 0",
+          "overlay": {
+            "width": 351.60500199999996,
+            "height": 23.903620000000053,
+            "top": 479.72601999999995,
+            "left": 74.31339800000002,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentNumber0",
+          "label": "Document Number 0",
+          "overlay": {
+            "width": 351.23671999999993,
+            "height": 23.901839999999996,
+            "top": 479.7278,
+            "left": 437.80168000000003,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "expirationDate0",
+          "label": "Expiration Date 0",
+          "overlay": {
+            "width": 222.49288000000018,
+            "height": 23.901839999999996,
+            "top": 479.7278,
+            "left": 801.50552,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "nameOfEmpOrAuthRep0",
+          "label": "Name of Emp or Auth Rep 0",
+          "overlay": {
+            "width": 351.76039599999996,
+            "height": 33.204120000000195,
+            "top": 573.9627799999998,
+            "left": 73.94440399999999,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "signatureOfEmpRep0",
+          "label": "Signature of Emp Rep 0",
+          "overlay": {
+            "width": 393.52952000000005,
+            "height": 33.20589999999995,
+            "top": 573.96456,
+            "left": 438.01528,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "todaysDate0",
+          "label": "Todays Date 0",
+          "overlay": {
+            "width": 168.08362000000017,
+            "height": 33.20589999999995,
+            "top": 573.96456,
+            "left": 843.27322,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textarea",
+          "key": "addtlInfo0",
+          "label": "Addtl Info 0",
+          "overlay": {
+            "width": 729.212066,
+            "height": 40.70681999999995,
+            "top": 629.04666,
+            "left": 72.992994,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "value": "Yes",
+          "type": "checkbox",
+          "key": "cbAlt0",
+          "label": "CB_Alt_0",
+          "overlay": {
+            "width": 16.87974000000011,
+            "height": 16.879739999999906,
+            "top": 633.81706,
+            "left": 810.35924,
+            "page": 4
+          },
+          "input": true,
+          "tableView": false
+        },
+        {
+          "type": "textfield",
+          "key": "dateOfRehire1",
+          "label": "Date of Rehire 1",
+          "overlay": {
+            "width": 155.04832400000006,
+            "height": 33.20589999999995,
+            "top": 716.6458,
+            "left": 75.11457600000001,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "lastName1",
+          "label": "Last Name 1",
+          "overlay": {
+            "width": 340.7115800000001,
+            "height": 33.20589999999995,
+            "top": 716.6458,
+            "left": 255.87321999999995,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "firstName1",
+          "label": "First Name 1",
+          "overlay": {
+            "width": 308.08951999999994,
+            "height": 33.20589999999995,
+            "top": 716.6458,
+            "left": 608.8952800000001,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "middleInitial1",
+          "label": "Middle Initial 1",
+          "overlay": {
+            "width": 93.32361999999995,
+            "height": 33.20589999999995,
+            "top": 716.6458,
+            "left": 930.46118,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentTitle1_1",
+          "label": "Document Title 1",
+          "overlay": {
+            "width": 351.60500199999996,
+            "height": 23.903620000000053,
+            "top": 811.38808,
+            "left": 74.31339800000002,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentNumber1",
+          "label": "Document Number 1",
+          "overlay": {
+            "width": 351.81877999999995,
+            "height": 23.901839999999996,
+            "top": 811.39342,
+            "left": 437.21961999999996,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "expirationDate1",
+          "label": "Expiration Date 1",
+          "overlay": {
+            "width": 223.07672000000014,
+            "height": 23.901839999999996,
+            "top": 811.39342,
+            "left": 800.92168,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "nameOfEmpOrAuthRep1",
+          "label": "Name of Emp or Auth Rep 1",
+          "overlay": {
+            "width": 355.02260200000006,
+            "height": 33.20590000000006,
+            "top": 903.87688,
+            "left": 74.526998,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "signatureOfEmpRep1",
+          "label": "Signature of Emp Rep 1",
+          "overlay": {
+            "width": 394.9268200000001,
+            "height": 33.20767999999981,
+            "top": 903.87332,
+            "left": 436.61798,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "todaysDate1",
+          "label": "Todays Date 1",
+          "overlay": {
+            "width": 168.08184,
+            "height": 33.20767999999981,
+            "top": 903.87332,
+            "left": 843.8552800000001,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textarea",
+          "key": "addtlInfo1",
+          "label": "Addtl Info 1",
+          "overlay": {
+            "width": 729.2174060000001,
+            "height": 43.02971999999996,
+            "top": 959.2971800000001,
+            "left": 73.20659400000001,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "value": "Yes",
+          "type": "checkbox",
+          "key": "cbAlt1",
+          "label": "CB_Alt_1",
+          "overlay": {
+            "width": 16.295900000000053,
+            "height": 16.87974000000011,
+            "top": 963.3431199999999,
+            "left": 810.93774,
+            "page": 4
+          },
+          "input": true,
+          "tableView": false
+        },
+        {
+          "type": "textfield",
+          "key": "dateOfRehire2",
+          "label": "Date of Rehire 2",
+          "overlay": {
+            "width": 155.04832400000006,
+            "height": 33.20589999999995,
+            "top": 1047.14374,
+            "left": 75.11457600000001,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "lastName2",
+          "label": "Last Name 2",
+          "overlay": {
+            "width": 340.12952000000007,
+            "height": 33.20589999999995,
+            "top": 1047.14374,
+            "left": 256.45528,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "firstName2",
+          "label": "First Name 2",
+          "overlay": {
+            "width": 308.08951999999994,
+            "height": 33.20589999999995,
+            "top": 1047.14374,
+            "left": 608.8952800000001,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "middleInitial2",
+          "label": "Middle Initial 2",
+          "overlay": {
+            "width": 93.32361999999995,
+            "height": 33.20589999999995,
+            "top": 1047.14374,
+            "left": 930.46118,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentTitle2",
+          "label": "Document Title 2",
+          "overlay": {
+            "width": 351.610698,
+            "height": 23.901839999999996,
+            "top": 1142.6282800000001,
+            "left": 73.300222,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "documentNumber2",
+          "label": "Document Number 2",
+          "overlay": {
+            "width": 351.82056,
+            "height": 23.901839999999996,
+            "top": 1142.6282800000001,
+            "left": 436.21036000000004,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "expirationDate2",
+          "label": "Expiration Date 2",
+          "overlay": {
+            "width": 223.9293400000002,
+            "height": 23.901839999999996,
+            "top": 1142.6282800000001,
+            "left": 799.91598,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "nameOfEmpOrAuthRep2",
+          "label": "Name of Emp or Auth Rep 2",
+          "overlay": {
+            "width": 351.17976000000004,
+            "height": 33.20625600000007,
+            "top": 1235.5065439999998,
+            "left": 74.52504,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "signatureOfEmpRep2",
+          "label": "Signature of Emp Rep 2",
+          "overlay": {
+            "width": 394.9286000000001,
+            "height": 33.20625600000007,
+            "top": 1235.5065439999998,
+            "left": 436.6162,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textfield",
+          "key": "todaysDate2",
+          "label": "Todays Date 2",
+          "overlay": {
+            "width": 168.08184,
+            "height": 33.20625600000007,
+            "top": 1235.5065439999998,
+            "left": 843.85706,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "type": "textarea",
+          "key": "addtlInfo2",
+          "label": "Addtl Info 2",
+          "overlay": {
+            "width": 729.2166940000001,
+            "height": 43.03612799999997,
+            "top": 1289.756672,
+            "left": 73.78758599999999,
+            "page": 4
+          },
+          "input": true,
+          "tableView": true
+        },
+        {
+          "value": "Yes",
+          "type": "checkbox",
+          "key": "cbAlt2",
+          "label": "CB_Alt_2",
+          "overlay": {
+            "width": 16.87796000000005,
+            "height": 16.878671999999973,
+            "top": 1296.979734,
+            "left": 812.14102,
+            "page": 4
+          },
+          "input": true,
+          "tableView": false
+        },
+        {
+          "label": "Signature",
+          "height": "auto",
+          "tableView": false,
+          "validateWhenHidden": false,
+          "key": "premiumsignature",
+          "overlay": {
+            "page": 1,
+            "left": 104,
+            "top": 517,
+            "width": 100,
+            "height": 20
+          },
+          "type": "signature",
+          "input": true
+        },
+        {
+          "label": "Upload",
+          "tableView": false,
+          "webcam": false,
+          "fileTypes": [
+            {
+              "label": "",
+              "value": ""
+            }
+          ],
+          "validateWhenHidden": false,
+          "key": "file",
+          "overlay": {
+            "page": 1,
+            "left": 97.359375,
+            "top": 85.03125,
+            "width": 100,
+            "height": 20
+          },
+          "type": "file",
+          "input": true
+        },
+        {
+          "label": "Currency",
+          "applyMaskOn": "change",
+          "mask": false,
+          "spellcheck": true,
+          "tableView": false,
+          "currency": "USD",
+          "inputFormat": "plain",
+          "truncateMultipleSpaces": false,
+          "validateWhenHidden": false,
+          "key": "currency",
+          "overlay": {
+            "page": 1,
+            "left": 102,
+            "top": 593,
+            "height": 20,
+            "width": 100
+          },
+          "type": "currency",
+          "input": true,
+          "delimiter": true
+        },
+        {
+          "label": "Email",
+          "applyMaskOn": "change",
+          "tableView": true,
+          "validateWhenHidden": false,
+          "key": "email",
+          "overlay": {
+            "page": 1,
+            "left": 463.359375,
+            "top": 447.03125,
+            "width": 100,
+            "height": 20
+          },
+          "type": "email",
+          "input": true
+        }
+      ],
+      "access": [
+        {
+          "type": "create_own",
+          "roles": []
+        },
+        {
+          "type": "create_all",
+          "roles": []
+        },
+        {
+          "type": "read_own",
+          "roles": []
+        },
+        {
+          "type": "read_all",
+          "roles": [
+            "administrator",
+            "authenticated",
+            "anonymous"
+          ]
+        },
+        {
+          "type": "update_own",
+          "roles": []
+        },
+        {
+          "type": "update_all",
+          "roles": []
+        },
+        {
+          "type": "delete_own",
+          "roles": []
+        },
+        {
+          "type": "delete_all",
+          "roles": []
+        },
+        {
+          "type": "team_read",
+          "roles": []
+        },
+        {
+          "type": "team_write",
+          "roles": []
+        },
+        {
+          "type": "team_admin",
+          "roles": []
+        }
+      ],
+      "submissionAccess": [
+        {
+          "type": "create_own",
+          "roles": []
+        },
+        {
+          "type": "create_all",
+          "roles": [
+            "anonymous"
+          ]
+        },
+        {
+          "type": "read_own",
+          "roles": []
+        },
+        {
+          "type": "read_all",
+          "roles": []
+        },
+        {
+          "type": "update_own",
+          "roles": []
+        },
+        {
+          "type": "update_all",
+          "roles": []
+        },
+        {
+          "type": "delete_own",
+          "roles": []
+        },
+        {
+          "type": "delete_all",
+          "roles": []
+        },
+        {
+          "type": "team_read",
+          "roles": []
+        },
+        {
+          "type": "team_write",
+          "roles": []
+        },
+        {
+          "type": "team_admin",
+          "roles": []
+        }
+      ],
+      "properties": {},
+      "controller": "",
+      "submissionRevisions": ""
+    }
+  },
+  "actions": {
+    "exampleFormI9:save": {
+      "title": "Save Submission",
+      "name": "save",
+      "form": "exampleFormI9",
+      "priority": 10,
+      "method": [
+        "create",
+        "update"
+      ],
+      "handler": [
+        "before"
+      ]
+    }
+  },
+  "resources": {},
+  "revisions": {},
+  "excludeAccess": true
+}
